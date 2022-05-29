@@ -47,7 +47,7 @@ if(NOT MSVC)
     if(COMPILER_SUPPORTS_CXX11)
         message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has C++11 support.")
     else()
-        message(FATAL_ERROR "Unsupported compiler ${CMAKE_CXX_COMPILER} "
+         message(FATAL_ERROR "Unsupported compiler ${CMAKE_CXX_COMPILER} "
             "GCEM requires a C++11-compatible compiler.")
     endif()
 endif()
